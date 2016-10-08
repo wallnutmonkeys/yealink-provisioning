@@ -1,0 +1,19 @@
+#phone-body {
+  width:500px;
+  height:600px;
+  display: flex;
+  flex-direction: column;
+}
+
+#phone-body-top {
+  width: 100%;
+  height: 50%;
+  background-color: #262424;
+}
+
+#phone-body-bottom {
+  width: 100%;
+  height: 50%;
+  background-color: #3c3a39;
+
+}
