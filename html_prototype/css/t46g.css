@@ -1,12 +1,18 @@
 #phone {
   height:600px;
-  width: 700px;
+  width: 800px;
   display: flex;
   flex-direction: row;
 }
-
+#handset {
+  width: 20%;
+  height: 100%;
+  background-color: black;
+  margin-right: 20px;
+}
 #phone-body {
   height:100%;
+  width: 80%;
   display: flex;
   flex-direction: column;
 }
@@ -192,10 +198,4 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-#handset {
-  width: 100px;
-  height: 100%;
-  background-color: black;
 }
