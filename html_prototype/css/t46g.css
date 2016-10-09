@@ -3,6 +3,8 @@
   width: 800px;
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
 }
 #handset {
   width: 20%;
@@ -10,12 +12,24 @@
   background-color: black;
   margin-right: 20px;
 }
+
 #phone-body {
   height:100%;
   width: 80%;
   display: flex;
   flex-direction: column;
 }
+
+@media only screen and (max-width: 800px){
+  #handset {
+    display: none;
+  }
+  #phone {
+    width:500px;
+  }
+}
+
+
 
 #phone-body-top {
   width: 100%;
@@ -198,4 +212,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media only screen and (max-width: 500px){
+  #phone {
+    width:100%;
+  }
+  .softkey-column {
+    display: none;
+  }
+  #lcd-screen {
+    width: 100%;
+  }
+
 }
