@@ -1,0 +1,189 @@
+#phone-body {
+  width:500px;
+  height:600px;
+  display: flex;
+  flex-direction: column;
+}
+
+#phone-body-top {
+  width: 100%;
+  height: 50%;
+  background-color: #262424;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#phone-body-top-row1 {
+  width: 100%;
+  height: 70%;
+  background-color: green;
+  display: flex;
+  flex-direction: row;
+}
+
+#phone-body-top-row2 {
+  width: 80%;
+  height: 10%;
+  background-color: blue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+#phone-body-top-row3 {
+  width: 80%;
+  height: 10%;
+  background-color: orange;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#phone-body-bottom {
+  width: 100%;
+  height: 50%;
+  background-color: #3c3a39;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#phone-body-bottom-col1 {
+  width: 45%;
+  height: 100%;
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#phone-body-bottom-col2 {
+  width: 27.5%;
+  height: 100%;
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+
+#phone-body-bottom-col3 {
+  width: 27.5%;
+  height: 100%;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+#lcd-screen {
+  width: 80%;
+  height: 100%;
+  background-color: yellow;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.softkey-column {
+  width: 10%;
+  height: 100%;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#lcd-screen-dss-section {
+
+}
+
+#lcd-screen-softkey-section {
+
+}
+
+.lcd-dsskey {
+
+  width:45%;
+  height:15%;
+  background-color: green;
+
+}
+
+.lcd-softkey {
+
+  width:23%;
+  height:90%;
+  background-color: green;
+
+}
+
+
+.vertical-softkey {
+  width: 60%;
+  height: 10px;
+  background-color: black;
+  border: 1px outset white;
+
+}
+
+.horizontal-softkey {
+  width: 30px;
+  height: 15px;
+  background-color: black;
+  border: 1px outset white;
+
+}
+
+.dialplad-button {
+  width:30%;
+  height:22%;
+  background-color: gray;
+}
+
+#phone-joystick {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#volume-control-button {
+  width:90%;
+  height: 30px;
+  background-color: rgb(97, 88, 89);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.col2-button-row {
+  width:50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#speaker-button {
+  width : 50%;
+  height : 30px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
