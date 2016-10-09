@@ -146,10 +146,13 @@
 
 .lcd-dsskey {
 
-  width:49%;
+  width:48%;
   height:19%;
   background-color: rgb(2, 15, 107);
   color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
 }
 
 .lcd-softkey {
@@ -158,6 +161,9 @@
   height:100%;
   background-color: rgb(2, 15, 107);
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
 }
 
