@@ -10,7 +10,8 @@
   width: 20%;
   height: 100%;
   background-color: black;
-  margin-right: 20px;
+  margin-right: 10px;
+  border-radius: 20px;
 }
 
 #phone-body {
@@ -34,17 +35,27 @@
 #phone-body-top {
   width: 100%;
   height: 50%;
-  background-color: #262424;
+  background-color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border-radius: 10px;
+}
+#phone-body-top-row0 {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 
 #phone-body-top-row1 {
   width: 100%;
   height: 70%;
-  background-color: green;
+  background-color: black;
   display: flex;
   flex-direction: row;
 }
@@ -52,18 +63,18 @@
 #phone-body-top-row2 {
   width: 80%;
   height: 10%;
-  background-color: blue;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  background-color: rgb(13, 64, 215);
 
 }
 
 #phone-body-top-row3 {
   width: 80%;
   height: 10%;
-  background-color: orange;
+  background-color: black;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -73,50 +84,50 @@
 #phone-body-bottom {
   width: 100%;
   height: 50%;
-  background-color: #3c3a39;
+  background-color: rgba(18, 16, 17, 0.97);
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  border-radius: 10px;
 }
 
 #phone-body-bottom-col1 {
   width: 45%;
   height: 100%;
-  background-color: red;
+
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
 #phone-body-bottom-col2 {
   width: 27.5%;
   height: 100%;
-  background-color: green;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 
 
 #phone-body-bottom-col3 {
   width: 27.5%;
-  height: 100%;
-  background-color: blue;
+  height: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  margin-top:25px;
 }
 
 
 #lcd-screen {
   width: 80%;
   height: 100%;
-  background-color: yellow;
+  background-color: rgb(13, 64, 215);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -126,7 +137,7 @@
 .softkey-column {
   width: 10%;
   height: 100%;
-  background-color: red;
+  background-color: black;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -143,41 +154,57 @@
 
 .lcd-dsskey {
 
-  width:45%;
-  height:15%;
-  background-color: green;
-
+  width:49%;
+  height:19%;
+  background-color: rgb(2, 15, 107);
+  color: white;
 }
 
 .lcd-softkey {
 
-  width:23%;
-  height:90%;
-  background-color: green;
+  width:24.5%;
+  height:100%;
+  background-color: rgb(2, 15, 107);
+  color: white;
 
 }
 
 
 .vertical-softkey {
   width: 60%;
-  height: 10px;
-  background-color: black;
-  border: 1px outset white;
+  height: 12px;
+  background-color: rgb(55, 51, 53);
+  border-radius: 5px;
 
 }
 
 .horizontal-softkey {
-  width: 30px;
+  width: 50px;
   height: 15px;
-  background-color: black;
-  border: 1px outset white;
+  background-color: rgb(55, 51, 53);
+  border-radius: 5px;
+}
 
+#dialpad {
+  width:70%;
+  height:80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .dialplad-button {
-  width:30%;
-  height:22%;
+  width:50px;
+  height:40px;
+  margin:5px;
   background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px black;
+  border-radius: 5px;
 }
 
 #phone-joystick {
@@ -186,16 +213,21 @@
   width: 100%;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 15px;
 }
 
 #volume-control-button {
-  width:90%;
+  width:80%;
   height: 30px;
-  background-color: rgb(97, 88, 89);
+  background-color: black;
+  color: gray;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-top: 50px;
 }
 
 .col2-button-row {
@@ -204,11 +236,52 @@
   justify-content: space-between;
 }
 
+.small-round-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: gray;
+  border-radius: 10px;
+  width:20px;
+  height:20px;
+  margin:5px;
+}
+
+.big-round-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: gray;
+  border-radius: 15px;
+  width:30px;
+  height:30px;
+  margin:5px;
+}
+
+.big-square-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: gray;
+  border-radius: 3px;
+  width:30px;
+  height:30px;
+  margin:5px;
+}
+
+#joystick-middle-row {
+  display: flex;
+
+}
+
 #speaker-button {
   width : 50%;
   height : 30px;
   background-color: black;
-  color: white;
+  color: green;
   display: flex;
   justify-content: center;
   align-items: center;
