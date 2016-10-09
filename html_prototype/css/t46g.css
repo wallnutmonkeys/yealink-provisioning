@@ -21,14 +21,6 @@
   flex-direction: column;
 }
 
-@media only screen and (max-width: 800px){
-  #handset {
-    display: none;
-  }
-  #phone {
-    width:500px;
-  }
-}
 
 
 
@@ -195,7 +187,7 @@
   align-items: center;
 }
 
-.dialplad-button {
+.dialpad-button {
   width:50px;
   height:40px;
   margin:5px;
@@ -286,15 +278,42 @@
   justify-content: center;
   align-items: center;
 }
+@media only screen and (max-width: 800px){
+  #handset {
+    display: none;
+  }
+  #phone {
+    width:500px;
+  }
+  .col2-button-row {
+    width:75%;
+  }
+
+  .dialpad-button {
+    width:35px;
+    height:25px;
+    margin:1px;
+  }
+
+}
+
 @media only screen and (max-width: 500px){
   #phone {
     width:100%;
   }
   .softkey-column {
-    display: none;
+    display:none;
   }
   #lcd-screen {
     width: 100%;
   }
-
+  #phone-body-top-row2 {
+    width: 100%;
+  }
+  #phone-body-top-row3 {
+    width: 100%;
+  }
+  #phone-body-bottom-col1 {
+    display: none;
+  }
 }
