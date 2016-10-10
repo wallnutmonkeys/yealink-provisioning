@@ -16,7 +16,7 @@ import { T46gAccountComponent } from './t46g/t46g-account.component';
         'component': T46gKeysComponent 
       },
       { 
-        'path': 'directory',
+        'path': 'directories',
         'component': T46gDirectoryComponent 
       },
       { 
