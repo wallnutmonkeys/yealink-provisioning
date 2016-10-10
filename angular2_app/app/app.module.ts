@@ -1,11 +1,11 @@
 import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppComponent }  from './app.component';
+import { T46gComponent } from './t46g/t46g-component';
 
 @NgModule({
   imports: [ BrowserModule ],
-  declarations: [ AppComponent ],
-  bootstrap: [ AppComponent ]
+  declarations: [ T46gComponent ],
+  bootstrap: [ T46gComponent ]
 })
 export class AppModule { }
