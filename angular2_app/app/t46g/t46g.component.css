@@ -1,0 +1,22 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #aaf;
+    color: white;
+    height: 50px;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.nav-item {
+    font-size: 20px;
+    color: white;
+}
+
+.nav-item-active {
+    font-size: 40px;
+}
