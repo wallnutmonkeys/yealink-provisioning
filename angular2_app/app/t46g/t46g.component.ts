@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 
+
 @Component({
     moduleId: module.id,
     selector: 't46g-phone',
